@@ -1,7 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import LightLogo from "../assets/CrimsonOrb.png";
+import DarkLogo from "../assets/CrimsonOrb 2.png";
+
+type LightLogo = typeof LightLogo;
+type DarkLogo = typeof DarkLogo;
 
 const ThemeChanger: React.FC = () => {
   const [theme, setTheme] = useState<"winter" | "night">("night");
+  const [logo, setLogo] = useState<LightLogo | DarkLogo>(LightLogo);
+
+  useEffect(() => {
+    const theme = document.documentElement.getAttribute("data-theme");
+    if (theme === "winter") setLogo(DarkLogo);
+    else setLogo(LightLogo);
+  }, []);
 
   const toggleTheme = () => {
     const newTheme = theme === "night" ? "winter" : "night";

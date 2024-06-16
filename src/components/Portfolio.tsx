@@ -23,11 +23,10 @@ export default function Portfolio() {
             </p>
             <h2 className="py-4">What We Have Done</h2>
             <p className="py-2 mr-8">
-              Here are some of the projects I have worked on. Click on the
-              images to view the project and scroll to view more. if it is
-              available. I will add more to this portfolio as time goes on. If
-              you have any questions or would like to work with me, please feel
-              free to reach out to me.
+              Here are some of the projects we have completed. Click on the
+              images to view the project and scroll to view more. We will add
+              more projects as we complete them. If you have any questions or
+              would like to work with us, feel free to contact us.
             </p>
           </div>
           <div className="carousel carousel-center max-w-2xl p-4 space-x-4 shadow-xl shadow-gray-400 rounded-box">

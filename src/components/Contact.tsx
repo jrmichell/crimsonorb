@@ -37,8 +37,8 @@ export default function Contact() {
                   <h2 className="py-2 text-secondary">CrimsonOrb</h2>
                   <p>Software Development Company</p>
                   <p className="py-4">
-                    We are currently taking commissions. Contact us and
-                    let&#39;s connect.
+                    We are currently evaluating projects for our company.
+                    Contact us and let&#39;s connect.
                   </p>
                   <div className="flex justify-center items-center m-6 lg:mt-10">
                     <img

@@ -13,7 +13,7 @@ const ThemeChanger: React.FC = () => {
     const theme = document.documentElement.getAttribute("data-theme");
     if (theme === "winter") setLogo(DarkLogo);
     else setLogo(LightLogo);
-  }, []);
+  }, [logo]);
 
   const toggleTheme = () => {
     const newTheme = theme === "night" ? "winter" : "night";

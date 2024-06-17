@@ -33,7 +33,7 @@ const LogoChanger: React.FC = () => {
 
   return (
     <div className="flex justify-center items-center">
-      <img src={logo} alt="Logo" className="w-[500px]" />
+      <img src={logo} alt="Logo" className="w-[650px]" />
     </div>
   );
 };

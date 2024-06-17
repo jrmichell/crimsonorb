@@ -21,10 +21,8 @@ export default function Hero() {
             Let&#39;s Connect
           </p>
           <LogoChanger />
-          <div className="flex justify-center items-center p-1">
-            <img />
-          </div>
-          <p className="py-4 sm:max-w-[70%] m-auto">
+          <div className="flex justify-center items-center p-1"></div>
+          <p className="py-4 mt-2 sm:max-w-[50%] m-auto">
             CrimsonOrb is a software development company that specializes in web
             development. We are a team of experienced software engineers who are
             passionate about creating innovative software solutions that help

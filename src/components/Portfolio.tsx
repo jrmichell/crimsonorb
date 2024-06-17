@@ -31,7 +31,7 @@ export default function Portfolio() {
           </div>
           <div className="carousel carousel-center max-w-2xl p-4 space-x-4 shadow-xl shadow-gray-400 rounded-box">
             <div className="carousel-item">
-              <a href="https://crimsonorb.com" target="_blank">
+              <a href="https://jmich.dev" target="_blank">
                 <img
                   src={Jmich}
                   className="rounded-box w-80 h-96 hover:scale-105 duration-300 ease-in"

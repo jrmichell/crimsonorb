@@ -31,7 +31,7 @@ export default function Contact() {
                 <img
                   src={ContactImg}
                   alt="Contact Image"
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
+                  className="rounded-xl"
                 />
                 <div>
                   <h2 className="py-2 text-secondary">CrimsonOrb</h2>

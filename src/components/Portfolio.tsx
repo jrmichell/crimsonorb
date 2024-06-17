@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Element, Events, scrollSpy } from "react-scroll";
-import Jmich from "../assets/Jack Michell.jpeg";
-import Helvera from "../assets/Helvera.jpeg";
+import Jmich from "../assets/jmich-dev.png";
+import Helvera from "../assets/Helvera.png";
 
 export default function Portfolio() {
   useEffect(() => {
@@ -29,22 +29,28 @@ export default function Portfolio() {
               would like to work with us, feel free to contact us.
             </p>
           </div>
-          <div className="carousel carousel-center max-w-2xl p-4 space-x-4 shadow-xl shadow-gray-400 rounded-box">
-            <div className="carousel-item">
-              <a href="https://jmich.dev" target="_blank">
-                <img
-                  src={Jmich}
-                  className="rounded-box w-80 h-96 hover:scale-105 duration-300 ease-in"
-                />
-              </a>
+          <div className="carousel w-full rounded-md">
+            <div id="slide1" className="carousel-item relative w-full">
+              <img src={Jmich} className="w-full" />
+              <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" className="btn btn-circle">
+                  ❮
+                </a>
+                <a href="#slide2" className="btn btn-circle">
+                  ❯
+                </a>
+              </div>
             </div>
-            <div className="carousel-item">
-              <a href="https://helvera.vercel.app">
-                <img
-                  src={Helvera}
-                  className="rounded-box w-72 h-96 hover:scale-105 duration-300 ease-in"
-                />
-              </a>
+            <div id="slide2" className="carousel-item relative w-full">
+              <img src={Helvera} className="w-full" />
+              <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" className="btn btn-circle">
+                  ❮
+                </a>
+                <a href="#slide3" className="btn btn-circle">
+                  ❯
+                </a>
+              </div>
             </div>
           </div>
         </div>

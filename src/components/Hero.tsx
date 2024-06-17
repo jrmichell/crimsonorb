@@ -17,7 +17,7 @@ export default function Hero() {
     <Element name="hero" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-secondary">
+          <p className="uppercase text-lg tracking-widest text-secondary">
             Let&#39;s Connect
           </p>
           <LogoChanger />

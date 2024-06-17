@@ -44,7 +44,7 @@ export default function Contact() {
                     <img
                       src={Logo}
                       alt="CrimsonOrb Software Development Company"
-                      style={{ width: "150px", height: "150px" }}
+                      style={{ width: "150px" }}
                     />
                   </div>
                 </div>

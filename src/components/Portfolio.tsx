@@ -29,28 +29,22 @@ export default function Portfolio() {
               would like to work with us, feel free to contact us.
             </p>
           </div>
-          <div className="carousel w-full rounded-md shadow-xl shadow-gray-400">
-            <div id="slide1" className="carousel-item relative w-full">
-              <img src={Jmich} className="w-full" />
-              <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" className="btn btn-circle">
-                  ❮
-                </a>
-                <a href="#slide2" className="btn btn-circle">
-                  ❯
-                </a>
+          <div>
+            <div className="carousel w-full rounded-xl shadow-lg shadow-gray-400">
+              <div id="item1" className="carousel-item w-full">
+                <img src={Jmich} className="w-full" />
+              </div>
+              <div id="item2" className="carousel-item w-full">
+                <img src={Helvera} className="w-full" />
               </div>
             </div>
-            <div id="slide2" className="carousel-item relative w-full">
-              <img src={Helvera} className="w-full" />
-              <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" className="btn btn-circle">
-                  ❮
-                </a>
-                <a href="#slide3" className="btn btn-circle">
-                  ❯
-                </a>
-              </div>
+            <div className="flex justify-center w-full py-2 mt-2 gap-2">
+              <a href="#item1" className="btn btn-md text-secondary">
+                1
+              </a>
+              <a href="#item2" className="btn btn-md text-secondary">
+                2
+              </a>
             </div>
           </div>
         </div>

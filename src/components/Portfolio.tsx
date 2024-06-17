@@ -29,7 +29,7 @@ export default function Portfolio() {
               would like to work with us, feel free to contact us.
             </p>
           </div>
-          <div className="carousel w-full rounded-md">
+          <div className="carousel w-full rounded-md shadow-xl shadow-gray-400">
             <div id="slide1" className="carousel-item relative w-full">
               <img src={Jmich} className="w-full" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

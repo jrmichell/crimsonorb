@@ -37,7 +37,7 @@ export default function Portfolio() {
                 </a>
               </div>
               <div id="item2" className="carousel-item w-full">
-                <a href="https://helera.vercel.app" target="_blank">
+                <a href="https://helvera.vercel.app" target="_blank">
                   <img src={Helvera} className="w-full" />
                 </a>
               </div>

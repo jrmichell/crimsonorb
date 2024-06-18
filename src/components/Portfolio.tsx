@@ -32,10 +32,14 @@ export default function Portfolio() {
           <div>
             <div className="carousel w-full rounded-xl shadow-lg shadow-gray-400">
               <div id="item1" className="carousel-item w-full">
-                <img src={Jmich} className="w-full" />
+                <a href="https://jmich.dev" target="_blank">
+                  <img src={Jmich} className="w-full" />
+                </a>
               </div>
               <div id="item2" className="carousel-item w-full">
-                <img src={Helvera} className="w-full" />
+                <a href="https://helera.vercel.app" target="_blank">
+                  <img src={Helvera} className="w-full" />
+                </a>
               </div>
             </div>
             <div className="flex justify-center w-full py-2 mt-2 gap-2">

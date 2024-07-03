@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Element, Events, scrollSpy } from "react-scroll";
 import Jmich from "../assets/jmich-dev.png";
 import Helvera from "../assets/Helvera.png";
+import Mosbys from "../assets/mosbys.png";
 
 export default function Portfolio() {
   useEffect(() => {
@@ -41,6 +42,11 @@ export default function Portfolio() {
                   <img src={Helvera} className="w-full" />
                 </a>
               </div>
+              <div id="item3" className="carousel-item w-full">
+                <a href="https://mosbyslandmanagement.com" target="_blank">
+                  <img src={Mosbys} className="w-full" />
+                </a>
+              </div>
             </div>
             <div className="flex justify-center w-full py-2 mt-2 gap-2">
               <a href="#item1" className="btn btn-md text-secondary">
@@ -48,6 +54,9 @@ export default function Portfolio() {
               </a>
               <a href="#item2" className="btn btn-md text-secondary">
                 2
+              </a>
+              <a href="#item3" className="btn btn-md text-secondary">
+                3
               </a>
             </div>
           </div>
